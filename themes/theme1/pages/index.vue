@@ -1,6 +1,8 @@
 <template>
-  test from rentmy theme 1
-  <Counter />
+  <div>
+    test from rentmy theme 1 {{helloWorld()}} - {{commonWorld()}}
+    <Counter />
+  </div>
 </template>
 
 <script setup>
